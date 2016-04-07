@@ -27,7 +27,7 @@ namespace Dematt.Airy.Models
         /// <param name="data">The response data.</param>
         protected BaseListResponseModel(IEnumerable<TEntityModel> data)
         {
-            this.Data = data;
+            Data = data;
         }
 
         /// <summary>
@@ -37,8 +37,8 @@ namespace Dematt.Airy.Models
         /// <param name="metadata">The response metadata.</param>
         protected BaseListResponseModel(IEnumerable<TEntityModel> data, TMetaModel metadata)
         {
-            this.Data = data;
-            this.Metadata = metadata;
+            Data = data;
+            Metadata = metadata;
         }
 
         /// <summary>

@@ -47,7 +47,7 @@ namespace Dematt.Airy.Models
         public PagedListResponseModel(IEnumerable<TEntityModel> data, IPagedList metadata)
             : base(data)
         {
-            this.Metadata = new PagedListMetaModel(metadata);
+            Metadata = new PagedListMetaModel(metadata);
         }
     }
 }

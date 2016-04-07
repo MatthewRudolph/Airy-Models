@@ -25,7 +25,7 @@
         /// <param name="data">The response data.</param>
         protected BaseItemResponseModel(TEntityModel data)
         {
-            this.Data = data;
+            Data = data;
         }
 
         /// <summary>
@@ -35,8 +35,8 @@
         /// <param name="metadata">The response metadata.</param>
         protected BaseItemResponseModel(TEntityModel data, TMetaModel metadata)
         {
-            this.Data = data;
-            this.Metadata = metadata;
+            Data = data;
+            Metadata = metadata;
         }
 
         /// <summary>

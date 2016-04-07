@@ -23,10 +23,10 @@ namespace Dematt.Airy.Models
         /// <param name="pagedList">An instance of an object that implements the <see cref="IPagedList"/> interface.</param>
         public PagedListMetaModel(IPagedList pagedList)
         {
-            this.PageCount = pagedList.PageCount;
-            this.PageNumber = pagedList.PageNumber;
-            this.PageSize = pagedList.PageSize;
-            this.TotalItemCount = pagedList.TotalItemCount;
+            PageCount = pagedList.PageCount;
+            PageNumber = pagedList.PageNumber;
+            PageSize = pagedList.PageSize;
+            TotalItemCount = pagedList.TotalItemCount;
         }
 
         /// <summary>
