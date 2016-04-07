@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://raw.github.com/MatthewRudolph/AiryModels/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MatthewRudolph/AiryModels</projectUrl>
+    <iconUrl>https://raw.github.com/MatthewRudolph/AiryModels/master/AiryNugetIcon128x128.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Release Summary: https://github.com/MatthewRudolph/AiryModels/blob/master/ReleaseNotes.txt </releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Airy NHibernate ASP.Net Identity</tags>
+    <dependencies>
+
+      <!-- We have only tested with X.PagedList 1.24.1.320, and pretty sure that we would be incompatible with the any 2.0 version when it is released,
+         but we should be ok for any future 1.x.x.x releases. -->
+      <dependency id="X.PagedList" version="[1.24.1.320,2)" />
+
+    </dependencies>
+  </metadata>
+</package>

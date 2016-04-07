@@ -11,7 +11,7 @@
     <AssemblyName>Dematt.Airy.Models</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <NuGetPackageImportStamp>b8962bb8</NuGetPackageImportStamp>
+    <NuGetPackageImportStamp>85b9b648</NuGetPackageImportStamp>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -71,6 +71,7 @@
     <Compile Include="SimpleListResponseModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Dematt.Airy.Identity.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
