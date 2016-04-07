@@ -1,5 +1,12 @@
 Release v1.0.0
 =============================
+## Bug fixes ##
+	** Dematt.Airy.Models**
+		* Update the nuget tags to be more appropriate.
+
+
+Release v1.0.0
+=============================
 
 ## First public release ##.
 
