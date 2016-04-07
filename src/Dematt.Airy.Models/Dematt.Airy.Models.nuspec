@@ -13,7 +13,7 @@
     <description>$description$</description>
     <releaseNotes>Release Summary: https://github.com/MatthewRudolph/AiryModels/blob/master/ReleaseNotes.txt </releaseNotes>
     <copyright>Copyright 2016</copyright>
-    <tags>Airy NHibernate ASP.Net Identity</tags>
+    <tags>Airy View Models</tags>
     <dependencies>
 
       <!-- We have only tested with X.PagedList 1.24.1.320, and pretty sure that we would be incompatible with the any 2.0 version when it is released,

@@ -11,7 +11,7 @@
     only:
       - master
   
-  version: 1.0.0.{build}  
+  version: 1.1.0.{build}  
   configuration: Release
   before_build:
   - ps: >-
@@ -32,7 +32,7 @@
     only:
       - /release.*/
   
-  version: 1.0.0.{build}  
+  version: 1.1.0.{build}  
   before_build:
   - ps: >-
       $versionToUse = $env:APPVEYOR_BUILD_VERSION
@@ -53,7 +53,7 @@
       - master
       - /release.*/
   
-  version: 1.0.0.{build}
+  version: 1.1.0.{build}
   before_build:
   - ps: >-
       $versionToUse = $env:APPVEYOR_BUILD_VERSION
