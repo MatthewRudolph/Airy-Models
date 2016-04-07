@@ -1,0 +1,9 @@
+Release v1.0.0
+=============================
+
+## First public release ##.
+
+## Features ##
+	** Dematt.Airy.Models**
+		* Simple base model classes for returning single items with associated meta data.
+		* Simple base model classes for returning collections of items with associated meta data.
