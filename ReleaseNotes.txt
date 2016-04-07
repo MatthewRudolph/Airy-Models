@@ -1,0 +1,4 @@
+Release v1.0.0
+=============================
+
+## No external nuget releases at this version.##

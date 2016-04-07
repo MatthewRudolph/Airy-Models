@@ -5,8 +5,13 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08938326-D545-4E6D-944F-3F4513ABB2EA}"
 	ProjectSection(SolutionItems) = preProject
+		AiryNugetIcon128x128.png = AiryNugetIcon128x128.png
+		AiryNugetIcon32x32.png = AiryNugetIcon32x32.png
+		AiryNugetIcon48x48.png = AiryNugetIcon48x48.png
+		appveyor.yml = appveyor.yml
 		LICENSE = LICENSE
 		README.md = README.md
+		ReleaseNotes.txt = ReleaseNotes.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9520215D-0068-405B-B53C-E60AE7831F5F}"
@@ -14,6 +19,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dematt.Airy.Models", "src\Dematt.Airy.Models\Dematt.Airy.Models.csproj", "{131BA273-4BE6-4095-98AC-6DFD07284CF5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{517E466A-A373-44D1-A56D-85C9113D9D9E}"
+	ProjectSection(SolutionItems) = preProject
+		tools\CreateNugetPackages.ps1 = tools\CreateNugetPackages.ps1
+		tools\ReplaceFile.ps1 = tools\ReplaceFile.ps1
+		tools\SetVersion.ps1 = tools\SetVersion.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
