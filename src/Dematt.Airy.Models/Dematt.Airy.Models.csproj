@@ -71,7 +71,9 @@
     <Compile Include="SimpleListResponseModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Dematt.Airy.Models.nuspec" />
+    <None Include="Dematt.Airy.Models.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
