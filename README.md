@@ -1,2 +1,2 @@
-# AiryModels
+# Airy Models
 Restful view models.
